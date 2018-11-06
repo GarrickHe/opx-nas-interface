@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018 Dell Inc.
+ * Copyright (c) 2017 Dell Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
  * not use this file except in compliance with the License. You may obtain
@@ -554,5 +554,4 @@ cps_api_return_code_t nas_intf_bind_vrf_rpc_handler (void *context, cps_api_tran
     nas_vrf_publish_intf_bind(obj, vrf_name, if_name, oper);
     return cps_api_ret_code_OK;
 }
-
 
